@@ -137,7 +137,7 @@ Adicione no arquivo depois da linha ### End of ZInit's installer chunk
 > zinit light zsh-users/zsh-completions
 
 
-## Instalação das Sdks
+## Instalação das SDKs
 
 NodeJs
 
