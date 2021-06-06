@@ -41,7 +41,7 @@ Other
 `$ sudo ./ubuntu/install.sh`
 
 ## Install from tutorial
-- ubuntu-20_04.md
+- /ubuntu/ubuntu-20_04.md
 
 
 
