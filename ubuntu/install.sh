@@ -56,6 +56,12 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 echo 'Install plugins'
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 
+echo 'Auto Suggestions'
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+echo 'Syntax Highlighting'
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
 echo 'Create configuration file to terminal'
 touch ~/.zshrc
 cp zshrc ~/.zshrc 
@@ -70,7 +76,7 @@ echo "----------------------------------------------------------------"
 echo "---------------[ Install Java Development Kit ]-----------------"
 echo "----------------------------------------------------------------"
 
-sudo apt-get install default-jdk -y 
+sudo apt install openjdk-17-jdk -y 
 java -version
 
 sudo apt install maven -y
