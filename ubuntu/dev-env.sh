@@ -65,9 +65,6 @@ touch ~/.zshrc
 cp zshrc ~/.zshrc 
 source ~/.zshrc
 
-sudo apt-get install -y tilix
-sudo update-alternatives --config x-terminal-emulator
-
 # Install Dev Tools
 
 echo "----------------------------------------------------------------"
